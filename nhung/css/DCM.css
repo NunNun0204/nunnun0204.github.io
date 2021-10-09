@@ -1,0 +1,104 @@
+
+header{
+	
+	background-image: url("../RGNSNDIOFGNQIN/5-bien-phap-bao-ve-moi-truong-khong-the-khong-lam-1.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 3000px;
+		
+}
+.chinh{
+	height: 140px;
+	background-image:  url("../RGNSNDIOFGNQIN/bao ve moi truong.png");
+	text-decoration: none;
+}
+.background{
+	background-position: top;
+	width:200vh;
+	height:25vh;
+}
+account{
+	float:right;
+	margin-top: 20px;
+	margin-right: 100px;
+	font-size: 30px;
+	text-decoration: none;
+	
+	}
+account taikhoan{
+	color:blue;
+	font-style: oblique;
+	text-decoration: none;
+
+	}
+account taikhoan:hover{
+	color:red;
+}
+cacphim{
+	margin-top: -58px;
+	float: right;
+	margin-right: 100px;
+	list-style-type: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+cacphim phim{
+	object-position: center;
+	width: 220px;
+    height: 120px;
+    background:#4CCB67;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	
+}
+cacphim phim a {
+	border-color: green;
+	margin:10px;
+	text-decoration: none;
+	
+}
+cacphim phim a:hover{
+	background-color: green;
+	color: wheat;
+	background-size: 200px;
+	object-position: center;
+	width: 220px;
+    height: 120px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.logo img{
+	float: left;
+	margin-top: 0;   
+	width: 700px;
+	height:165px;
+	padding:0;
+}
+	
+bst{
+	background-image: url("../RGNSNDIOFGNQIN/5-bien-phap-bao-ve-moi-truong-khong-the-khong-lam-1.jpg");
+	background-position: center;
+	margin-top: -20px;
+	margin-left: 110px;
+	margin-right: 100px;
+	object-position: center;
+	display: inline-table;
+    
+}
+bst anh:hover{
+	background-color: black;
+		
+}
+.thanhphan img{
+	width:250px;
+	margin-top: 20px;
+	margin-right:2px;
+	margin-left: 2px;
+	height:auto;
+	
+}
+.thanhphan{
+	max-width: 2500px;
+	object-position: center;
+}

@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 2000px) {
+}
+@media screen and (max-width: 480px) {
+}
+.tabs {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:500px;
+height:250px;
+background:#f5f5f5;
+padding:20px 30px;
+overflow:hidden;
+box-shadow:5px 10px 5px #ccc;
+}
+.tabs .tab-header {
+height:60px;
+display:flex;
+align-items:center;
+}
+.tabs .tab-header > div {
+width:calc(100% / 4);
+text-align:center;
+color:#888;
+font-weight:600;
+cursor:pointer;
+font-size:14px;
+text-transform:uppercase;
+outline:none;
+}
+.tabs .tab-header > div > i {
+display:block;
+margin-bottom:5px;
+}
+.tabs .tab-header > div.active {
+color:#00acee;
+}
+.tabs .tab-indicator {
+position:relative;
+width:calc(100% / 4);
+height:5px;
+background:red;
+left:0px;
+transition:all 500ms ease-in-out;
+}
+.tabs .tab-body {
+position:relative;
+height:calc(100% - 60px);
+padding:10px 5px;
+}
+.tabs .tab-body > div {
+position:absolute;
+top:-200%;
+opacity:0;
+transform:scale(0.9);
+transition:opacity 500ms ease-in-out 0ms,
+transform 500ms ease-in-out 0ms;
+}
+.tabs .tab-body > div.active {
+top:0px;
+opacity:1;
+transform:scale(1);
+}
+header{
+	
+	background-image: url("../RGNSNDIOFGNQIN/5-bien-phap-bao-ve-moi-truong-khong-the-khong-lam-1.jpg");
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 3000px;
+		
+}
+.chinh{
+	height: 140px;
+	background-image:  url("../RGNSNDIOFGNQIN/bao ve moi truong.png");
+	text-decoration: none;
+}
+.background{
+	background-position: top;
+	width:200vh;
+	height:25vh;
+}
+account{
+	float:right;
+	margin-top: 20px;
+	margin-right: 100px;
+	font-size: 30px;
+	text-decoration: none;
+	
+	}
+account taikhoan{
+	color:blue;
+	font-style: oblique;
+	text-decoration: none;
+
+	}
+account taikhoan:hover{
+	color:red;
+}
+cacphim{
+	margin-top: -58px;
+	float: right;
+	margin-right: 100px;
+	list-style-type: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+cacphim phim{
+	object-position: center;
+	width: 220px;
+    height: 120px;
+    background:#4CCB67;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	
+}
+cacphim phim a {
+	border-color: green;
+	margin:10px;
+	text-decoration: none;
+	
+}
+cacphim phim a:hover{
+	background-color: green;
+	color: wheat;
+	background-size: 200px;
+	object-position: center;
+	width: 220px;
+    height: 120px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.logo img{
+	float: left;
+	margin-top: 0;   
+	width: 700px;
+	height:165px;
+	padding:0;
+}
+	
+bst{
+	background-image: url("../RGNSNDIOFGNQIN/5-bien-phap-bao-ve-moi-truong-khong-the-khong-lam-1.jpg");
+	background-position: center;
+	margin-top: -20px;
+	margin-left: 110px;
+	margin-right: 100px;
+	object-position: center;
+	display: inline-table;
+    
+}
+bst anh:hover{
+	background-color: black;
+		
+}
+.thanhphan img{
+	width:250px;
+	margin-top: 20px;
+	margin-right:2px;
+	margin-left: 2px;
+	height:auto;
+	
+}
+.thanhphan{
+	max-width: 2500px;
+	object-position: center;
+}
