@@ -2,10 +2,110 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>index</title>
-	<link rel="stylesheet" type="text/html" href="nhung/html/CONCHOTRANG.html" />
+<title>MEOW MEOW</title>
+	<link rel="stylesheet" type="text/css" href="../css/meow.css" />
+	<style>
+</style>
 </head>
-
 <body>
-</body>
+	<header>
+		<div class="logo"> <a href="meowmeow.html"><img src="../hinh anh/Untitled-2.gif"></a>  </div>
+		<div class="chinh">	
+		<account> <a href="dangnhap.html"><taikhoan>Đăng nhập</taikhoan></a>
+					<a href="dangky.html"><taikhoan>Đăng kí</taikhoan></a>
+		</account>
+		<div class="background">
+		
+			</div>
+		<cacphim>
+			<phim><a href="meowmeow.html">Trang chủ</a></phim>
+			<phim><a href="#">Hoạt động</a></phim>
+			<phim><a href="#">Theo dõi</a></phim>
+			<phim><a href="#">Gần bạn</a></phim>
+			<phim><a href="#">Shop</a></phim>
+			<phim><a href="meowmeow.html">Báo cáo</a></phim>
+		</cacphim>
+		</div>
+
+		<div class="thanhphan">
+			<bst>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+			<anh><img src="../RGNSNDIOFGNQIN/hinh_anh_moi_truong_xanh_sach_dep_1024x1024.jpg"></anh>
+				
+		  </bst>
+		</div>
+	</header>
+	<div class="tabs">
+	<div class="OUT">	<a href="CONCHOTRANG.html"><button name="button" type="button">Thoát</button></a> </div>
+<div class="tab-header">
+<div class="active">
+<i class="fa fa-code"></i> SOMETHING
+</div>
+	
+<div>
+<i class="fa fa-pencil-square-o"></i> AHIHI
+</div>
+<div>
+<i class="fa fa-bar-chart"></i> ĐỪNG MEN
+</div>
+<div>
+<i class="fa fa-envelope-o"></i> NOOOO!
+</div>
+</div>
+
+<div class="tab-indicator"></div>
+		
+<div class="tab-body">
+<div class="active">
+<h2>Nội dung</h2>
+<p>CONCHOTRANG</p>
+	<button name="button2" value="OK" type="button" onclick="hello()">Bấm đây nè</button>  
+<script>  
+  function hello(){  
+    alert("CoN ChÓ TrẮnG");  
+  }  
+</script>
+</div>
+<div>
+<h2>HELLO BẠN</h2>
+<p>:))))))</p>
+</div>
+<div>
+<h2>MEOMEO</h2>
+<p>CÓ VẤN ĐỀ DỌC HIỂU HA MEN</p>
+</div>
+<div>
+<h2>COME HERE</h2>
+<p>DUMB</p>
+</div>
+</div>
+</div>
+	<script language="javascript">
+let tabHeader = document.getElementsByClassName("tab-header")[0];
+let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
+let tabBody = document.getElementsByClassName("tab-body")[0];
+
+let tabsPane = tabHeader.getElementsByTagName("div");
+
+for(let i=0;i<tabsPane.length;i++){
+tabsPane[i].addEventListener("click",function(){
+tabHeader.getElementsByClassName("active")[0].classList.remove("active");
+tabsPane[i].classList.add("active");
+tabBody.getElementsByClassName("active")[0].classList.remove("active");
+tabBody.getElementsByTagName("div")[i].classList.add("active");
+
+tabIndicator.style.left = `calc(calc(100% / 4) * ${i})`;
+});
+}
+</script>
+	
+	</body>
 </html>
