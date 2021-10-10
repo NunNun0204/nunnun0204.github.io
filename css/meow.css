@@ -144,11 +144,9 @@ cacphim phim a:hover{
 	
 bst{
 	background-image: url("../RGNSNDIOFGNQIN/5-bien-phap-bao-ve-moi-truong-khong-the-khong-lam-1.jpg");
-	background-position: center;
 	margin-top: -20px;
 	margin-left: 110px;
 	margin-right: 100px;
-	object-position: center;
 	display: inline-table;
     
 }
@@ -160,7 +158,7 @@ bst anh:hover{
 	width:250px;
 	margin-top: 20px;
 	margin-right:2px;
-	margin-left: 2px;
+	margin-left: 5.9px;
 	height:auto;
 	
 }
